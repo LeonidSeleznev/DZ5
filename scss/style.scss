@@ -1,0 +1,32 @@
+@import '../packages/bootstrap-4.0.0/scss/bootstrap.scss';
+
+@import 'variables';
+
+@import 'header';
+
+@import 'topNav';
+
+@import 'newArrivals';
+
+@import 'leftNav';
+
+@import 'productCharacteristics';
+
+@import 'products';
+
+@import 'pagination';
+
+@import 'benefits';
+
+@import 'subscribe';
+
+@import 'footer';
+
+@import 'copyrights';
+
+@import 'checkout';
+
+body {
+    margin: 0;
+    font-family: Lato, sans-serif;
+}

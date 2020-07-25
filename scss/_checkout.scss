@@ -1,0 +1,192 @@
+.checkoutWrap {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    @media (max-width:992px) {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .adressLeft {
+
+        .adressLeftHeader {
+            h2 {
+                color: #222222;
+                font-size: 13px;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-top: 10px;
+            }
+
+            #reg1,
+            #reg2 {
+                display: none;
+            }
+
+            label[for="reg1"],
+            label[for="reg2"] {
+                display: block;
+                margin-bottom: 20px;
+                padding-left: 20px;
+                background: url(../images/regEmpty.png) no-repeat left center;
+                color: #222222;
+                font-size: 12px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+
+            #reg1:checked+label,
+            #reg2:checked+label {
+                background: url(../images/regChecked.png) no-repeat left center;
+            }
+
+            p {
+                background: url(../images/arrows.png) no-repeat left center;
+                display: block;
+                padding-left: 12px;
+                color: #b3b2b2;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 20px;
+            }
+
+            button {
+                color: #4a4a4a;
+                font-size: 14px;
+                font-weight: 700;
+                text-transform: uppercase;
+                width: 180px;
+                height: 50px;
+                border: 1px solid #eaeaea;
+                background-color: #ffffff;
+                outline: none;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .adressRight {
+        
+        @media (max-width:992px) {
+            margin-top: 40px;
+        }
+
+        .adressRightHeader {
+
+            h2 {
+                color: #222222;
+                font-size: 13px;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-top: 10px;
+            }
+
+            .required {
+                color: #ff0d0d;
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 20px;
+                margin-top: 20px;
+            }
+
+            .logPassword {
+
+                button {
+                    width: 180px;
+                    height: 50px;
+                    border: 1px solid #eaeaea;
+                    background-color: #ffffff;
+                    margin-top: 22px;
+
+                    color: #4a4a4a;
+                    font-size: 14px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    text-align: center;
+                    line-height: 50px;
+                    outline: none;
+                    display: block;
+                    float: left;
+                }
+
+                a {
+                    color: #222222;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 90px;
+                    margin-left: 32px;
+                    text-decoration: none;
+
+                    @media (max-width: 395px) {
+                        display: block;
+                        clear: both;
+                    }
+                }
+            }
+
+
+
+            .emailPassword {
+                color: #222222;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 20px;
+                text-transform: uppercase;
+
+
+                input {
+                    display: block;
+                    width: 390px;
+                    height: 45px;
+                    border: 1px solid #eaeaea;
+                    background-color: #ffffff;
+                    margin-top: 12px;
+                    margin-bottom: 15px;
+
+                    @media (max-width: 470px) {
+                        width: 100%;
+                    }
+                }
+
+                span {
+                    color: #ff0d0d;
+                    font-size: 17px;
+                    font-weight: 400;
+                    line-height: 20px;
+                }
+
+            }
+        }
+    }
+
+}
+
+.shippingDescription {
+    color: #b3b2b2;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.card {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.card:first-child {
+    margin-top: 90px;
+}
+
+.card:last-child {
+    margin-bottom: 90px;
+}
+
+.checkoutHeader {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}

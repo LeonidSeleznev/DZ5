@@ -1,0 +1,140 @@
+.header {
+    min-height: 100px;
+    border-bottom: 1px solid #ececec;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+
+    @media (max-width:991px){
+        height: auto;
+        padding: 15px;
+    }
+
+    .container {
+        height: inherit;
+        display: flex;
+        align-items: center;
+
+        @media (max-width:991px){
+            flex-direction: column;
+        }
+
+        > *:not(.logo) {
+            margin-top: 15px;
+        }
+        
+            .logo {
+                width: 164px;
+                height: 51px;
+                background: url(../images/logo.png) no-repeat;
+                padding-left: 71px;
+                color: #222222;
+                font-size: 27px;
+                line-height: 51px;
+                text-transform: uppercase;
+                font-weight: 300;
+
+                span {
+                    color: #f16d7f;
+                    font-weight: 400;
+                    letter-spacing: 0.68px;
+                }
+            }
+    }
+}
+
+.topSearchForm {
+    display: flex;
+    height: 38px;
+    margin-left: 46px;
+
+    @media (max-width:991px){
+        margin-left: 0;
+    }
+
+    .topBrowse {
+        width: 87px;
+        border-radius: 3px 0 0 3px;
+        border: 1px solid #e6e6e6;
+        background-color: #cdcdcc;
+        background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+        color: #222222;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: 0.35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        i {
+            margin-left: 8px;
+        }
+    }
+
+    input {
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+        width: 317px;
+        background-color: #ffffff;
+        padding: 16px;
+        outline: none;
+        color: #a4a4a4;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: 0.35px;
+
+        @media (max-width:450px){
+            width: auto;
+        }
+
+        @media (max-width:365px){
+            width: 150 px;
+        }
+    }
+
+    button {
+        width: 36px;
+        border-radius: 0 3px 3px 0;
+        border: 1px solid #e6e6e6;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0.35px;
+
+        
+
+        i {
+            color: #a4a4a4;
+        }
+    }
+}
+
+.accountBtn {
+    width: 130px;
+    height: 38px;
+    border-radius: 3px;
+    background-color: #f16d7f;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.38px;
+
+    @media (max-width:991px){
+        margin-left: 0;
+    }
+}
+
+.headerCart {
+    margin-left: auto;
+    margin-right: 26px;
+
+    @media (max-width:991px){
+        margin-left: initial;
+    }
+}
