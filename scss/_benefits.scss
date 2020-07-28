@@ -6,32 +6,32 @@
     color: white;
 
     .container {
-        display: flex;
+        /*display: flex;
         justify-content: space-between;
         align-items: center;
 
         @media (max-width: 991px) {
             flex-direction: column;
+        }*/
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        padding: 20px;
+        @media(max-width: 1020px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media(max-width: 720px) {
+            grid-template-columns: 1fr;
+            max-width: 270px;
         }
     }
 }
 
 .benefitPart {
     text-align: center;
-    max-width: 309px;
-
-    @media (max-width: 1199px) {
-        max-width: 270px;
-    }
-
-    &:not(:first-child) {
-        @media (max-width: 991px) {
-            margin-top: 30px;
-        }
-    }
-
-
-
+    max-width: 270px;
     img {
         margin-bottom: 32px;
     }
