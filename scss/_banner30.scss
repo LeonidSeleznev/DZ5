@@ -1,0 +1,120 @@
+.banner30 {
+    margin-top: 100px;
+    display: flex;
+    height: 529px;
+    margin-bottom: 100px;
+
+    @media (max-width: 1200px) {
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.advertisement {
+    background: url(../images/Layer_38.png) no-repeat;
+    width: 767px;
+    height: 529px;
+
+    @media (max-width: 772px) {
+        background: #e8e8e8;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+}
+
+.adTexting {
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-top: 113px;
+    padding-left: 36px;
+
+    @media (max-width: 772px) {
+        padding: 0;
+    }
+}
+
+.ofr {
+    color: #f16d7f;
+    letter-spacing: 1.5px;
+}
+
+.forWomen {
+    font-size: 32px;
+    margin-top: -5px;
+}
+
+
+.deliverySales {
+    background-color: #222224;
+    width: 373px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    @media (max-width: 1200px) {
+        margin-top: 30px;
+        padding:15px;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    @media (max-width: 772px) {
+        flex-direction: column;
+    }
+}
+
+.deliverySalesInfo {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    @media (max-width: 1200px) {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    @media (max-width: 772px) {
+        flex-direction: column;
+    }
+}
+
+.delivery {
+    @media (max-width: 772px) {
+        margin-top: 30px;
+    }
+}
+
+.deliveryText {
+    background: url(../images/Forma_1.svg) no-repeat;
+    color: #fbfbfb;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-left: 78px;
+
+}
+
+.deliveryText div {
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.percent {
+    background: url(../images/Forma_2.svg) no-repeat;
+}
+
+.crown {
+    background: url(../images/Forma_3.svg) no-repeat;
+}

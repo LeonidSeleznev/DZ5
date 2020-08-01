@@ -1,0 +1,45 @@
+.scrollingPanel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    overflow: hidden;
+    border: 1px solid #eaeaea;
+}
+
+.scrollingPanelImage {
+    overflow: hidden;
+    background: url(../images/Layer_42.png);
+    height: 777px;
+    width: 600px;
+    background-position: center center;
+
+}
+
+.scrollingPanel .leftArrow {
+    text-decoration: none;
+    width: 47px;
+    height: 47px;
+    background-color: #7a7a7a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrollingPanel .leftArrow>a {
+    color: #ffffff;
+}
+
+.scrollingPanel .rightArrow {
+    text-decoration: none;
+    width: 47px;
+    height: 47px;
+    background-color: #7a7a7a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrollingPanel .rightArrow>a {
+    color: #ffffff;
+}

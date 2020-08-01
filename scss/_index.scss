@@ -1,0 +1,47 @@
+.promo {
+    height: 655px;
+    background: #e8e8e8;
+
+    @media (max-width:1200px) {
+        height: auto;
+    }
+
+    .promoContainer {
+        height: inherit;
+        background: url(../images/Layer_24.png) no-repeat;
+        position: relative;
+
+        @media (max-width:1200px) {
+            background: none;
+            position: initial;
+            display: flex;
+            justify-content: center;
+        }
+
+        .promoSlogan {
+            border-left: 12px solid #f16d7f;
+            font-weight: 400;
+            font-size: 40px;
+            position: absolute;
+            top: 224px;
+
+            @media (max-width:1200px) {
+                position: initial;
+                border: none;
+                text-align: center;
+            }
+
+
+            div {
+                font-weight: 700;
+                color: #222222;
+                font-size: 40px;
+                text-transform: uppercase;
+            }
+
+            span {
+                color: #f16d7f;
+            }
+        }
+    }
+}

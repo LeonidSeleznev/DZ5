@@ -1,7 +1,5 @@
 @import '../packages/bootstrap-4.0.0/scss/bootstrap.scss';
 
-@import 'variables';
-
 @import 'header';
 
 @import 'topNav';
@@ -25,6 +23,20 @@
 @import 'copyrights';
 
 @import 'checkout';
+
+@import 'index';
+
+@import 'categories';
+
+@import 'suggestionMenu';
+
+@import 'banner30';
+
+@import 'scrollingPanel';
+
+@import 'productDescription';
+
+@import 'mayAlsoLike';
 
 body {
     margin: 0;
