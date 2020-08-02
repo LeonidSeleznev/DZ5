@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 
     @media (max-width:770px) {
         flex-direction: column;
@@ -16,6 +17,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    transition-duration: 1s;
+    margin-top: 70px;
+}
+
+.MayAlsoLikeProduct:hover {
+    transform: scale(1.1, 1.1);
 }
 
 .MayAlsoLikeProductImage {
