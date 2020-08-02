@@ -104,8 +104,7 @@
         font-weight: 400;
         line-height: 32px;
         letter-spacing: 0.35px;
-
-        
+        background-color: #cdcdcc;
 
         i {
             color: #a4a4a4;
@@ -124,17 +123,29 @@
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0.38px;
+    transition-duration: 1s;
 
     @media (max-width:991px){
         margin-left: 0;
     }
 }
 
+.accountBtn:hover {
+    background-color: #a4a4a4;
+    transform: scale(1.2,1.2);
+}
+
 .headerCart {
     margin-left: auto;
     margin-right: 26px;
+    transition-duration: 1s;
+    animation-timing-function: linear;
 
     @media (max-width:991px){
         margin-left: initial;
     }
+}
+
+.headerCart:hover {
+    transform: rotateZ(360deg);
 }

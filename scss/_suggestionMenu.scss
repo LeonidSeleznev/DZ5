@@ -12,10 +12,14 @@
 .suggestionProduct {
     width: 261px;
     padding-top: 60px;
+    transition-duration: 1s;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.suggestionProduct:not(:nth-child(4n)) {
-    margin-right: 28px;
+.suggestionProduct:hover {
+    transform: scale(1.1, 1.1);
 }
 
 .productText {

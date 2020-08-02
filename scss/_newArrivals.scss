@@ -30,13 +30,12 @@
                 text-decoration: none;
                 text-transform: uppercase;
                 color: #636363;
+                transition-duration: 0s;
                 &:last-of-type {
                     color: #f16d7f;
                     font-weight: 700;
                 }
-
             }
-
         }
     }
 }

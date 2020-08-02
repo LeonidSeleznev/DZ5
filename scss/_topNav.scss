@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 3px;
 
     @media (max-width: 515px) {
         flex-direction: column;
@@ -24,7 +25,8 @@
         display: block;
 
         &:hover {
-            border-bottom: 3px solid #ef5b70
+            border-bottom: 3px solid #ef5b70;
+            transform: scale(1.1, 1.1);
         }
 
         &:not(:last-child) {
